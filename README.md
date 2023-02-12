@@ -21,8 +21,10 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+## My Solution
+
+- Solution URL: [Solution](https://github.com/ciesluk/product-preview-card-component-main)
+- Live Site URL: [Live](https://beamish-meringue-fa9ef9.netlify.app/)
 
 ## My process
 
