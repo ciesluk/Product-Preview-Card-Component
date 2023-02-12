@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    width: 600px;
+    height: 450px;
+}
+
+.product-image{
+    background: no-repeat center/100% url('../images/image-product-desktop.jpg');
+    border-radius: 10px 0 0 10px;
+}
+
+.product-details{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+h1{
+    padding: 24px 0;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    color: hsl(212, 21%, 14%);
+}
+
+h3{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+}
+
+.product-description{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    padding-bottom: 24px;
+}
+
+.add-to-cart{
+    padding-top: 30px;
+   
+}
+
+button{
+    padding: 15px;
+    border-radius: 8px; 
+    width: 100%;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: upper;
+    font-weight: 500;
+}
+
+button > img,
+button > span{
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+}
+.sale-price{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+}
+
+.original-price{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 23px;
+}
+
+/*Media Query*/
+
+@media screen and (max-width: 610px){
+    main{
+        display: grid;
+        grid-template-columns: 343px;
+        grid-template-rows: 240px 371px;
+        width: 343px;
+        height: 611px;
+    }
+
+    .product-image{
+        background: no-repeat center/100% url('../images/image-product-mobile.jpg');
+        border-radius: 10px 10px 0 0px;
+    }
+
+    .product-details{
+        padding: 25px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    h1{
+        padding: 14px 0;
+    }
+
+    .product-description{
+        padding-bottom: 14px;
+    }
+
+    .add-to-cart{
+        padding-top: 14px;
+    }
+}
+
