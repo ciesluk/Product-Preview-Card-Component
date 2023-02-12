@@ -15,13 +15,14 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ## Overview
 
 ### Screenshot
+### My Solution
 
 ![](./images/preview-card-desktop.PNG)
 ![](./images/preview-card-mobile.PNG)
 
 ### Links
 
-## My Solution
+### My Solution
 
 - Solution URL: [Solution](https://github.com/ciesluk/product-preview-card-component-main)
 - Live Site URL: [Live](https://beamish-meringue-fa9ef9.netlify.app/)
