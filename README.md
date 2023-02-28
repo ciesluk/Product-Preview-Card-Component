@@ -1,4 +1,4 @@
-# Product Preview Card Component Solution
+# Product Preview Card Component
 
 ## Table of contents
 
@@ -33,10 +33,6 @@
 - CSS3
 - Flexbox
 - CSS Grid
-
-### What I learned
-
-I learned many things on this project that will help me with future projects. I learned how to align the cart icon and text within the button. I also got to enhance my knowledge of media queries. 
 
 ## Author
 
